@@ -9,14 +9,14 @@ import {
   terser,
 } from 'rollup-plugin-terser';
 
-const pJson = require('./package.json');
+const pkg = require('./package.json');
 
 const {
   version,
   license,
-} = pJson;
+} = pkg;
 const banner = '/*!\n'
-    + ` * ${pJson.name} v${version}\n`
+    + ` * ${pkg.name} v${version}\n`
     + ` * (c) 2018-${new Date().getFullYear()}\n`
     + ` * Released under the ${license} License.\n`
     + ' */';

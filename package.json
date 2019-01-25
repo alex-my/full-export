@@ -34,10 +34,11 @@
     "rollup-plugin-terser": "^4.0.2"
   },
   "scripts": {
-    "dev": "set NODE_ENV=development && rollup -c",
-    "build": "yarn run buildcjs && yarn run buildesm",
-    "buildcjs": "set NODE_ENV=production && rollup -c",
-    "buildesm": "set NODE_ENV=production6 && rollup -c"
+    "dev": "yarn run eslint && export NODE_ENV=development && rollup -c",
+    "build": "yarn run eslint && yarn run buildcjs && yarn run buildesm",
+    "buildcjs": "export NODE_ENV=production && rollup -c",
+    "buildesm": "export NODE_ENV=production6 && rollup -c",
+    "eslint": "eslint --fix --ext .jsx,.js src/"
   },
   "license": "MIT",
   "repository": {
