@@ -1,3 +1,5 @@
-const add = (a, b) => a + b;
+import add from './lib/add';
 
-export default add;
+export default {
+  add,
+};

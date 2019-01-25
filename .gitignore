@@ -2,4 +2,5 @@
 .DS_Store
 .idea
 dist
+examples
 node_modules

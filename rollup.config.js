@@ -30,8 +30,8 @@ const paths = {
   },
 };
 const fileNames = {
-  development: 'index.common.js',
-  production: 'index.common.js',
+  development: 'index.js',
+  production: 'index.js',
   production6: 'index.esm.js',
 };
 const fileName = fileNames[ENV];
@@ -52,7 +52,7 @@ export default {
     commonjs(),
     eslint({
       include: ['src/**'],
-      exclude: ['node_modules/**'],
+      exclude: ['node_modules/**', 'dist/**'],
     }),
     babel({
       exclude: 'node_modules/**',
