@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "full-export",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "description": "export content to text, json file, excel(xls, xlsx)",
   "main": "dist/index.js",
   "author": {
@@ -34,11 +34,13 @@
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-eslint": "^5.0.0",
-    "rollup-plugin-node-resolve": "^4.0.0"
-  },
-  "dependencies": {
+    "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-replace": "^2.1.0",
     "rollup-plugin-terser": "^4.0.2"
+  },
+  "dependencies": {
+    "js-export-excel": "^1.1.2",
+    "lodash": "^4.17.11"
   },
   "files": [
     "dist/index.js"
