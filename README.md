@@ -1,6 +1,6 @@
 # 功能
 
-- 前端导出`文本`, `JSON`, `Excel`
+- 前端导出 `Excel`
 
 # 依赖
 
@@ -31,3 +31,7 @@
 
   wb.export();
   ```
+
+# TODO
+
+- 导出`text`, `JSON`

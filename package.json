@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "full-export",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "export content to text, json file, excel(xls, xlsx)",
   "main": "dist/index.js",
   "author": {
