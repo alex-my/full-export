@@ -8,9 +8,9 @@
 
 # 安装
 
-    ```text
-    npm install --save full-export
-    ```
+```text
+npm install --save full-export
+```
 
 # 使用
 
@@ -26,6 +26,8 @@
   for (let i = 1; i <= 5; ++i) {
     const ws = wb.addWorkSheet(`w-${i}`);
     ws.addHeader(['姓名', '年龄', 'sex']);
+    // addData 一次性添加所有数据
+    // pushData 添加一行数据
     ws.addData([['Alex', 18, 0], ['张三', 20, 1]]);
   }
 
