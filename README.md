@@ -37,3 +37,9 @@ npm install --save full-export
 # TODO
 
 - 导出`text`, `JSON`
+
+## CHANGELOG
+
+- `1.2.0`
+  - `2019/08/29`
+    - 更新依赖版本

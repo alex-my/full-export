@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "full-export",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "export content to text, json file, excel(xls, xlsx)",
   "main": "dist/index.js",
   "author": {
@@ -23,16 +23,16 @@
     "eslint": "eslint --fix --ext .jsx,.js src/"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4",
-    "eslint": "^6.0.1",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-plugin-import": "^2.18.0",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.2",
-    "rollup": "^1.17.0",
+    "eslint-plugin-react": "^7.14.3",
+    "rollup": "^1.20.3",
     "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-eslint": "^7.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-replace": "^2.2.0",
@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "js-export-excel": "^1.1.2",
-    "lodash": "^4.17.14"
+    "lodash": "^4.17.15"
   },
   "files": [
     "dist/index.js"
